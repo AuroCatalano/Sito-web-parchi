@@ -1,0 +1,472 @@
+body {
+    margin: 0;
+    font-family: "Prata", serif;
+}
+
+header {
+    background-color: #859F6B;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+} 
+
+h1 {
+    font-size: 40px;
+    color: #90906E;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin: 30px 240px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 17px;
+    color: #6D794E;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin: -10px 240px;
+}
+
+
+h3 {
+    font-size: 15px;
+    color: black;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin: 30px 240px;
+    font-weight: 500;
+}
+
+img[alt="Deep Forest"] { 
+    height: 370px;
+    width: 980px;
+    margin-left: 250px;
+}
+
+img[alt="Etna2"] { 
+    height: 450px;
+    width: 980px;
+    margin-left: 50px;
+}
+
+.Titolo-parco {
+    margin-top: -80px;  
+    color: #F5F5DC; 
+    margin-left: 100px; 
+}
+
+.sottotitolo-parco {
+    font-size: 14px;
+    color: #000000;
+    text-align: justify; 
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 50px; 
+}
+
+.descrizione-parco {
+    font-size: 14px;
+    color: #000000;
+    line-height: 1.6;
+    text-align: justify;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+}
+
+img[alt="Volpe-dellEtna-1"] {
+    height: 550px;
+    width: 980px;
+    margin-left: 50px;
+    margin-top: 130px; 
+}
+
+.titolo-fauna {
+    font-size: 30px;
+    color: #90906E;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: justify;
+    margin-top: 55px; 
+}
+
+.Fauna {
+    font-size: 14px;
+    color: #000000;
+    line-height: 1.6;
+    text-align: justify;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    top: 40px;
+} 
+
+img[alt="Borgo"] {
+    height: 400px;
+    width: 700px;
+    margin-left: 328px;
+    margin-top: 130px; 
+}
+
+.conservazione {
+    font-size: 30px;
+    color: #FFFFFF;
+    margin-left: 350px;
+    margin-top: -260px;
+}
+
+.testo {
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 350px;
+    margin-top: -20px;
+    max-width: 600px;
+}
+
+.footer {
+    background-color: #859F6B; 
+    color: white; 
+    text-align: center; 
+    padding: 35px; 
+    position: relative; 
+    bottom: 0;
+    width: 95.4%; 
+    margin-top: 400px;
+}
+
+img[alt="download"] { 
+    height: 550px;
+    width: 980px;
+    margin-left: 50px;
+}
+
+.Titolo-parco01 {
+    margin-top: -80px;  
+    color: #F5F5DC; 
+    margin-left: 100px; 
+}
+
+.sottotitolo-parco01 {
+    font-size: 14px;
+    color: #000000;
+    text-align: justify; 
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 50px; 
+}
+
+.descrizione-parco01 {
+    font-size: 14px;
+    color: #000000;
+    line-height: 1.6;
+    text-align: justify;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+}
+
+img[alt="Capre"] {
+    height: 550px;
+    width: 980px;
+    margin-left: 50px;
+    margin-top: 130px; 
+}
+
+.titolo-fauna01 {
+    font-size: 30px;
+    color: #90906E;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: justify;
+    margin-top: 55px; 
+}
+
+.Fauna01 {
+    font-size: 14px;
+    color: #000000;
+    line-height: 1.6;
+    text-align: justify;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    top: 40px;
+} 
+
+img[alt="Paradiso"] {
+    height: 400px;
+    width: 700px;
+    margin-left: 328px;
+    margin-top: 130px; 
+}
+
+.conservazione01 {
+    font-size: 30px;
+    color: #FFFFFF;
+    margin-left: 350px;
+    margin-top: -260px;
+}
+
+.testo01 {
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 350px;
+    margin-top: -20px;
+    max-width: 600px;
+}
+
+.footer {
+    background-color: #859F6B; 
+    color: white; 
+    text-align: center; 
+    padding: 35px; 
+    position: relative; 
+    bottom: 0;
+    width: 95.4%; 
+    margin-top: 400px;
+}
+
+img[alt="Parco2"] { 
+    height: 550px;
+    width: 980px;
+    margin-left: 50px;
+}
+
+.Titolo-parco02 {
+    margin-top: -80px;  
+    color: #F5F5DC; 
+    margin-left: 100px; 
+}
+
+
+.descrizione-parco02 {
+    font-size: 14px;
+    color: #000000;
+    line-height: 1.6;
+    text-align: justify;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+}
+
+img[alt="download(57)"] {
+    height: 550px;
+    width: 980px;
+    margin-left: 50px;
+    margin-top: 130px; 
+}
+
+.titolo-fauna02 {
+    font-size: 30px;
+    color: #90906E;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: justify;
+    margin-top: 55px; 
+}
+
+.Fauna02 {
+    font-size: 14px;
+    color: #000000;
+    line-height: 1.6;
+    text-align: justify;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    top: 40px;
+} 
+
+img[alt="Pollino"] {
+    height: 400px;
+    width: 700px;
+    margin-left: 328px;
+    margin-top: 130px; 
+}
+
+.conservazione02 {
+    font-size: 30px;
+    color: #FFFFFF;
+    margin-left: 350px;
+    margin-top: -260px;
+}
+
+.testo02 {
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 350px;
+    margin-top: -20px;
+    max-width: 600px;
+}
+
+.footer {
+    background-color: #859F6B; 
+    color: white; 
+    text-align: center; 
+    padding: 35px; 
+    position: relative; 
+    bottom: 0;
+    width: 95.4%; 
+    margin-top: 400px;
+}
+
+img[alt="Dolomiti"] { 
+    height: 550px;
+    width: 980px;
+    margin-left: 50px;
+}
+
+.Titolo-parco03 {
+    margin-top: -150px;  
+    color: #F5F5DC; 
+    margin-left: 100px; 
+}
+
+
+.descrizione-parco03 {
+    font-size: 14px;
+    color: #000000;
+    line-height: 1.6;
+    text-align: justify;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+}
+
+img[alt="Camoscio"] {
+    height: 550px;
+    width: 980px;
+    margin-left: 50px;
+    margin-top: 130px; 
+}
+
+.titolo-fauna03 {
+    font-size: 30px;
+    color: #90906E;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: justify;
+    margin-top: 55px; 
+}
+
+.Fauna03 {
+    font-size: 14px;
+    color: #000000;
+    line-height: 1.6;
+    text-align: justify;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    top: 40px;
+} 
+
+img[alt="DOLOMITES"] {
+    height: 400px;
+    width: 700px;
+    margin-left: 328px;
+    margin-top: 130px; 
+}
+
+.conservazione03 {
+    font-size: 30px;
+    color: #FFFFFF;
+    margin-left: 350px;
+    margin-top: -260px;
+}
+
+.testo03 {
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 350px;
+    margin-top: -20px;
+    max-width: 600px;
+}
+
+.footer {
+    background-color: #859F6B; 
+    color: white; 
+    text-align: center; 
+    padding: 35px; 
+    position: relative; 
+    bottom: 0;
+    width: 95.4%; 
+    margin-top: 400px;
+}
+
+h4 {
+    font-size: 15px;
+    color: black;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin: 50px 240px;
+    font-weight: 500;
+}
+
+main {
+    max-width: 1100px;
+    margin:auto
+    
+}
+
+.parchi h5, .parchi p {
+    padding: 0;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Libre Franklin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.grid {
+    margin-left: 70px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px
+    
+}
+
+.grid .item img {
+    height: 300px;
+    width: 390px;
+    object-fit: cover;
+}
+
+.footer {
+    background-color: #859F6B; 
+    color: white; 
+    text-align: center; 
+    padding: 35px; 
+    position: relative; 
+    bottom: 0;
+    width: 95.4%; 
+}
